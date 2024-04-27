@@ -9,24 +9,26 @@ html {
   width:fit-content;
   text-align: center;
   font-size: 300%;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: white;
-  border-radius: 40%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  border-radius: 0%;
+  color: white;
 }
 
 .Container{
-  align-items: center;
+  align-items: center top;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   column-gap: 5px;
 }
 
 .MainExpl{
-  font-size: 150%;
+  font-size: 200%;
+  max-width: 100%;
   max-height: 100%;
-  background-color: lightcoral;
+  background-color: white;
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .Dannyimg{
